@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+       <h1 class="title">
+        DINOMATCH
+       </h1>    
+    </header>
+    <section>
+        <form class="flex-container">
+            <p id="bienvenido" class="bienvenido">
+                ¡Bienvenido al juego de preguntas!
+            </p>
+                <label id="preguntanombre" class="preguntanombre">
+                ¿Cómo es tu nombre?
+                </label>
+                <input type="text" name="participante" id="nombreparticipante" class="nombreparticipante" required>
+                </input>
+                <input type="button" value="Inicia el juego" id="iniciar" class="botoniniciar">
+                <p id="mensaje" class="mensaje">
+                </p>
+        </form>
+        <div id="respuestas" class="flex-container"></div>
+        <p id="validarrespuesta">
+        </p>
+        <h3 id="repuestascorrectas">
+        </h3>
+        <p id="gracias" class="gracias">
+        </p>
+        <p id="contador">
+        </p>
+    </section>
+    
+    <script src="index.js"></script>
+</body>
+</html>
